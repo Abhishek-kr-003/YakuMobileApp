@@ -1,0 +1,59 @@
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# Keep .vscode settings under version control if useful.
+# .vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+/build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter build artifacts
+app.*.symbols
+app.*.map.json
+.android/
+.widget_preview/
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android local configuration and signing credentials
+android/local.properties
+android/key.properties
+android/*.jks
+android/*.keystore
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
